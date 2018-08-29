@@ -1,0 +1,20 @@
+{
+  "name": "house-offers-alerter",
+  "version": "1.0.0",
+  "description": "App for find new offers on housing portals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Pawel Smolinski",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "firebase-admin": "^6.0.0",
+    "puppeteer": "^1.7.0",
+    "puppeteer-core": "^1.7.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
